@@ -87,6 +87,11 @@ footer i:hover:not(:focus) {
   padding: 30px 80px;
 }
 
+.about-me-header {
+  margin-top: -40px;
+  padding-bottom: 20px;
+}
+
 .about-me-container {
   display: flex;
   justify-content: center;
@@ -132,7 +137,7 @@ form {
 }
 
 .portfolio-header {
-  margin-top: -30px;
+  margin-top: -40px;
 }
 
 .card {
@@ -218,4 +223,12 @@ p {
 .card-container input:focus {
   outline: none;
   border: 0.5px solid #899a51;
+}
+
+.skills {
+  padding-bottom: 20px;
+}
+
+.skills-header {
+  margin-top: -30px;
 }
