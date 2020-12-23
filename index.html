@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Hind Siliguri' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Barlow Semi Condensed' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/e44027c5f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Bryana Herrera</title>
+</head>
+<body>
+    <div class="top-menu">
+        <a href="#banner">Home</a>
+        <a href="#aboutMe">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="container">
+        <div class="banner" id="banner">
+            <h1>Hello.</h1>
+            <div class="sub-banner">
+                I'm Bryana Herrera, a front-end web developer, and then some.
+            </div>
+        </div>
+
+        <div class="about-me" id="aboutMe">
+            <h2>About Me</h2>
+            <div class="about-me-container">
+                <div class="photo">
+                    <img src="https://pbs.twimg.com/profile_images/1316560233213440000/lRhFIFey_400x400.jpg" alt="Bryana">
+                </div>
+                <div class="description">
+                    <h3>Bryana</h3>
+                    <p>I am a first generation Mexican American. I love seeing things put together to create a bigger thing. I got into 
+                        Computer Science through Shrek. I love music and creating playlists.
+                        Some of my favorite sports are soccer, basketball, and badminton. I can solve a rubix cube in under 1 minute.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-header">
+                <p>Here is some of my work</p>
+            </div>
+            <div class="allCards">
+                <div class="card">
+                    <img src="html-me-something.png" alt="Concert Adventures website" style="width:100%">
+                    <div class="card-container">
+                        <h2><b>First HTML and CSS website</b></h2>
+                        <p>First website playing with HTML and CSS. Showcasing my favorite past time pre-covid.</p>
+                        <input type="button" class="bgbutton" value="See Project!" id="addtocart" name="addtocart" onkeypress="window.event.cancelBubble=true;" onclick="window.open('https://bryanaherrera.github.io/html-me-something/', 'NewPage');" >
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="form.png" alt="LaunchCode Launch Form" style="width:100%">
+                    <div class="card-container">
+                        <h2><b>Launch Checklist Form</b></h2>
+                        <p>Created a form with validations and nice graphics.</p>
+                        <input type="button" class="bgbutton" value="See Project!" id="addtocart" name="addtocart" onkeypress="window.event.cancelBubble=true;" onclick="window.open('https://bryanaherrera.github.io/Launch-Checklist-Form/', 'NewPage');" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm" method="POST" action="contact-form-handler.php">
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required> <br>
+                <input name="email" type="email" class="form-control" placeholder="Your email" required> <br>
+                <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea> <br>
+                <input type="submit" class="form-control-submit" value="SEND MESSAGE">
+            </form>
+        </div>
+    </div>
+
+
+    
+    <footer>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/bryana-herrera/" target="_blank"><i class="fab fa-linkedin fa-3x" alt="linkedin"></i></a>
+            <a href="https://twitter.com/herrera_bryana" target="_blank"><i class="fab fa-twitter-square fa-3x" alt="twitter"></i></a>
+            <a href="https://github.com/bryanaherrera" target="_blank"><i class="fab fa-github-square fa-3x" alt="git-hub"></i></a></p>
+        </div>
+        <div class="copyright">
+            <p>Made by Bryana Herrera - 2020</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

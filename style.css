@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+
+.top-menu {
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Hind Siliguri";
+}
+
+.top-menu a {
+  display: felx;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  padding-right: 20px;
+}
+
+.banner {
+  font-size: 100px;
+  margin: 0;
+  padding-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+  background-color: #ffddd2;
+}
+
+.sub-banner {
+  font-size: 15px;
+  margin-bottom: 40px;
+  font-family: "Hind Siliguri";
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  display: inline-block;
+}
+
+footer i {
+  color: #606c38;
+  padding-right: 25px;
+  display: inline-block;
+}
+
+.icons {
+  position: relative;
+}
+
+.copyright {
+  margin-right: 25px;
+  padding-top: 20px;
+  font-family: "Hind Siliguri";
+  color: #283618;
+}
+
+footer i:hover:not(:focus) {
+  color: #283618;
+}
+
+.photo img {
+  border-radius: 100%;
+  transition: transform 250ms;
+  float: left;
+  padding: 0 20px 20px 0;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.photo img:hover {
+  transform: translateY(-5px);
+}
+
+.about-me {
+  font-family: "Hind Siliguri";
+  padding: 30px 80px;
+}
+
+.about-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Hind Siliguri";
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.description {
+  flex: 0 0 200px;
+}
+
+form {
+  margin-top: 50px;
+  outline: tomato;
+  /* transition: all 4s ease-in-out; */
+}
+
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.contact {
+  background-color: #e29578;
+  padding: 20px;
+}
+
+.portfolio {
+  padding: 20px;
+  padding-bottom: 40px;
+  font-family: "Hind Siliguri";
+}
+
+.portfolio-header {
+  margin-top: -30px;
+}
+
+.card {
+  font-family: "Barlow Condensed";
+}
+
+.form-control-submit {
+  background-color: #ffddd2;
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.form-control-submit:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: #edf6f9;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
+}
+
+.card {
+  box-shadow: 0 4px 8px 9 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 20%;
+  width: 20%;
+  margin-right: 20px;
+  outline: 1px dotted gray;
+  overflow: hidden;
+}
+
+.card h2,
+p {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.allCards {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.container {
+  word-wrap: break-word;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0.5px 8px;
+  border-radius: 10rem;
+  border: none;
+  overflow: hidden;
+  position: relative;
+  background-color: #899a51;
+  font-family: "Inter", sans-serif;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.25s ease-in-out;
+  transition-property: padding, box-shadow, background-color;
+  box-shadow: 0 2rem 2rem -1.5rem rgba(77, 87, 45, 0.8);
+}
+
+.card-container input:hover {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.card-container input:focus {
+  outline: none;
+  border: 0.5px solid #899a51;
+}
