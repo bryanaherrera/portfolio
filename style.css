@@ -105,7 +105,7 @@ h2 {
 }
 
 .description {
-  flex: 0 0 200px;
+  flex: 0 0 400px;
 }
 
 form {
@@ -142,6 +142,11 @@ form {
 
 .card {
   font-family: "Barlow Condensed";
+}
+
+.card h3 {
+  font-size: 30px;
+  padding-bottom: 5px;
 }
 
 .form-control-submit {
@@ -231,4 +236,80 @@ p {
 
 .skills-header {
   margin-top: -30px;
+}
+
+.levels {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.skill {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 1em auto auto;
+  font-family: "Hind Siliguri";
+}
+
+.skill h3 {
+  padding-bottom: 2px;
+}
+
+.contact h2 {
+  color: #fff;
+}
+
+#proficient p {
+  /* display: inline-block; */
+  float: right;
+  font-size: 15px;
+  padding-top: 8px;
+}
+
+#proficient i {
+  padding-bottom: 2px;
+}
+
+.skillIcons {
+  padding-top: 10px;
+}
+
+/* .classDescription {
+  display: none;
+}
+
+.classTitle:active + .classDescription {
+  display: block;
+} */
+.success {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.description a {
+  text-decoration: none;
+  outline: none;
+  color: #899a51;
+  /* color: #c4d300; */
 }

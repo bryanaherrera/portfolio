@@ -16,13 +16,14 @@
         <a href="#banner">Home</a>
         <a href="#aboutMe">About Me</a>
         <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Courses</a>
         <a href="#contact">Contact</a>
     </div>
     <div class="container">
         <div class="banner" id="banner">
             <h1>Hello.</h1>
             <div class="sub-banner">
-                I'm Bryana Herrera, a front-end web developer, and then some.
+                I'm Bryana Herrera, a developer, and then some.
             </div>
         </div>
 
@@ -37,9 +38,10 @@
                 </div>
                 <div class="description">
                     <h3>Bryana</h3>
-                    <p>I am a first generation Mexican American. I love seeing things put together to create a bigger thing. I got into 
-                        Computer Science through Shrek. I love music and creating playlists.
-                        Some of my favorite sports are soccer, basketball, and badminton. I can solve a rubix cube in under 1 minute.
+                    <p>I am a first generation Mexican American. I love seeing things put together to create something bigger. I got into 
+                        Computer Science through Shrek <a href="#footer">(ask me about it!)</a>. I love music and creating playlists. I can solve a rubix cube in under 1 minute.
+                        I'm currently enrolled in my last course for my undergrad degree. I am also in a bootcamp, LaunchCode's LC101 to further
+                        my knowledge in full stack development.
                     </p>
                 </div>
             </div>
@@ -52,17 +54,17 @@
             </div>
             <div class="allCards">
                 <div class="card">
-                    <img src="html-me-something.png" alt="Concert Adventures website" style="width:100%">
+                    <img src="images\html-me-something.png" alt="Concert Adventures website" style="width:100%">
                     <div class="card-container">
-                        <h2><b>First HTML and CSS website</b></h2>
+                        <h3><b>First HTML and CSS website</b></h3>
                         <p>First website playing with HTML and CSS. Showcasing my favorite past time pre-covid.</p>
                         <input type="button" class="bgbutton" value="See Project!" id="addtocart" name="addtocart" onkeypress="window.event.cancelBubble=true;" onclick="window.open('https://bryanaherrera.github.io/html-me-something/', 'NewPage');" >
                     </div>
                 </div>
                 <div class="card">
-                    <img src="form.png" alt="LaunchCode Launch Form" style="width:100%">
+                    <img src="images\form.png" alt="LaunchCode Launch Form" style="width:100%">
                     <div class="card-container">
-                        <h2><b>Launch Checklist Form</b></h2>
+                        <h3><b>Launch Checklist Form</b></h3>
                         <p>Created a form with validations and nice graphics.</p>
                         <input type="button" class="bgbutton" value="See Project!" id="addtocart" name="addtocart" onkeypress="window.event.cancelBubble=true;" onclick="window.open('https://bryanaherrera.github.io/Launch-Checklist-Form/', 'NewPage');" >
                     </div>
@@ -70,29 +72,66 @@
             </div>
         </div>
 
-        <div class="skills">
-            <h2>Skills</h2>
+        <div class="skills" id="skills">
+            <h2>Courses</h2>
             <div class="skills-header">
-                <p>I love leearning, her are some things i've dabbled in.</p>
+                <p>I love learning, here are some things I've dabbled in.</p>
             </div>
-            <div class="skill">
-                <h3>Advanced</h3>
-            </div>
-            <div class="skill">
-                <h3>Proficient</h3>
-            </div>
-            <div class="skill">
-                <h3>Novice</h3>
+            <div class="levels">
+                <div class="skill">
+                    <h3 class="classTitle">Computer Systems & Assembly Language</h3>
+                    <p class="classDescription">Introduction to computer architecture and assembly language programming. 
+                        Worked in the low level language and gained a better understanding of information is moved and stored.</p>
+                    <h3 class="classTitle">Computer Organization</h3>
+                    <p class="classDescription">Hands-on course to understand computer subsystems, their components, instruction set architecture, and more.
+                        Worked with circuits through LogicWorks to better understand how a computer performs and what ways it could be more efficient.
+                    </p>
+                    <h3 class="classTitle">Operating Systems</h3>
+                    <p class="classDescription">Explored hardware designs, data structures, and algorithms that inform operating-system design.
+                        Took an in-depth look into how operating systems operate and the behind the scenes action that occurs.
+                    </p>
+                    <h3 class="classTitle">Language Structure</h3>
+                    <p class="classDescription">Concepts of syntax and semantics of grammars and languages. Focused on object-oriented languages and studied the servel concepts such as Big O notaion.</p>
+                    <h3 class="classTitle">Data Structures</h3>
+                    <p class="classDescription">A systematic study of the main data structures of computer science: arrays, stacks, queues, linked lists, trees, graphs, hash tables. Efficiency being 
+                        condisered throughout through implementation and analysis of the algorithms and programming techniques. </p>
+                    <h3 class="classTitle">Computer Security</h3>
+                    <p class="classDescription">In depth look into understanding the security issues pertinent to systems. Topics included threats, confidentiality, security models, requirements imposed by policies,
+                        certification, designing and evaluating systems, amongst other contemporary issues.
+                    </p>
+                    <h3 class="classTitle">Internet Technologies</h3>
+                    <p class="classDescription">Introduction to client-side technologies and standards based web developments. Learned fundamentals of HTML5, CSS, and JavaScript theoeugh creating a website for an 
+                        improvised museum.</p>
+                    <h3 class="classTitle">Database Concepts</h3>
+                    <p class="classDescription">Introduction to fundadmentals and use of rational databases. Focused topics were entity-relationship modeling, database normalization, data dependencies, and structured query language.</p>
+                    <h3 class="classTitle">System Analysis and Design</h3>
+                    <p class="classDescription">Fundamental concepts of object-oriented software analysis and design including requirements specification, analysis, and design of software. Final project included creating a system for my job in 
+                        aftercare. Learned the various steps in creating a system, through planning the needed actors, classes and time needed.
+                    </p>
+                    <h3 class="classTitle">Fundamentals of Software Engineering</h3>
+                    <p class="classDescription">Covered fundadmentals of moder software engineering. Topics included softwarere development lifecycles; object oriented architecture and design patterns and specification in UML; performance impact 
+                        of design choices; analysis of designs regarding maintainability and testability. Final project was going through and planning a web application. This was accomplished through UML diagrams, project planning through
+                    an agile method with serval sprints, ans serval test cases.</p>
+                </div>
             </div>
         </div>
         
         <div class="contact" id="contact">
             <h2>Contact Me</h2>
-            <form id="contactForm" method="POST" action="contact-form-handler.php">
-                <input name="name" type="text" class="form-control" placeholder="Your Name" required> <br>
-                <input name="email" type="email" class="form-control" placeholder="Your email" required> <br>
-                <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea> <br>
-                <input type="submit" class="form-control-submit" value="SEND MESSAGE">
+            <div id="form-messages"></div>
+            <form id="ajax-contact" method="post" action="mailer.php">
+                <div class="field">
+                    <input name="name" id="name" type="text" class="form-control" placeholder="Your Name" required> <br>
+                </div>
+                <div class="field">
+                    <input name="email" id="email" type="email" class="form-control" placeholder="Your email" required> <br>
+                </div>
+                <div class="field">
+                    <textarea name="message" id="message" class="form-control" placeholder="Message" rows="4" required></textarea> <br>
+                </div>
+                <div class="field">
+                    <input type="submit" class="form-control-submit" value="SEND MESSAGE">
+                </div>
             </form>
         </div>
     </div>
@@ -100,16 +139,18 @@
 
     
     <footer>
-        <div class="icons">
+        <div class="icons" id="footer">
             <a href="https://www.linkedin.com/in/bryana-herrera/" target="_blank"><i class="fab fa-linkedin fa-3x" alt="linkedin"></i></a>
             <a href="https://twitter.com/herrera_bryana" target="_blank"><i class="fab fa-twitter-square fa-3x" alt="twitter"></i></a>
-            <a href="https://github.com/bryanaherrera" target="_blank"><i class="fab fa-github-square fa-3x" alt="git-hub"></i></a></p>
+            <a href="https://github.com/bryanaherrera" target="_blank"><i class="fab fa-github-square fa-3x" alt="git-hub"></i></a>
+            <a href="mailto:bryanaherrera98@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-3x"></i></a>
         </div>
         <div class="copyright">
             <p>Made by Bryana Herrera - 2020</p>
         </div>
     </footer>
 
+    <script src="jquery-2.1.0.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
